@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Payments" max_length="40" name="x_740318_financi_0_payments" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Bill" mandatory="true" max_length="32" name="bill" reference="x_740318_financi_0_bill" reference_qual="ownSAMEASown^EQ" reference_qual_condition="ownSAMEASown^EQ" type="reference"/>
+        <element label="Comments" max_length="2000" name="comments" type="string"/>
+        <element label="Date to pay" mandatory="true" max_length="40" name="date_to_pay" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Own" max_length="32" name="own" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Paid in" mandatory="true" max_length="40" name="paid_in" type="glide_date"/>
+        <element display="true" label="Short description" max_length="100" name="short_description" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,omit_sys_original=true,serializer=com.glide.currency2.Currency2XMLSerializer" label="Value paid" mandatory="true" max_length="38" name="value_paid" type="currency2"/>
+        <index name="index">
+            <element name="value_paid"/>
+        </index>
+        <index name="index2">
+            <element name="own"/>
+        </index>
+        <index name="index3">
+            <element name="bill"/>
+        </index>
+    </element>
+</database>

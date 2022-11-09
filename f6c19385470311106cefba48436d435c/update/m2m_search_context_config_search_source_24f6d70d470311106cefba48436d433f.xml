@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="Financial Control - Workspace Search">17e6970da4031110fc7ce967a3f4d840</search_context_config>
+        <source display_value="Financial Control - x_740318_financi_0_payments">0cf6d70d470311106cefba48436d430d</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 13:15:37</sys_created_on>
+        <sys_id>24f6d70d470311106cefba48436d433f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Financial Control" source="x_740318_financi_0">f6c19385470311106cefba48436d435c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Financial Control">f6c19385470311106cefba48436d435c</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_24f6d70d470311106cefba48436d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 13:15:37</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

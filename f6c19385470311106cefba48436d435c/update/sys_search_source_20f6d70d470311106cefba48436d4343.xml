@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_source">
+    <sys_search_source action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition table="x_740318_financi_0_bill">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </condition>
+        <group/>
+        <name>Financial Control - x_740318_financi_0_bill</name>
+        <roles/>
+        <source_table>x_740318_financi_0_bill</source_table>
+        <sys_class_name>sys_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 13:15:37</sys_created_on>
+        <sys_id>20f6d70d470311106cefba48436d4343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Financial Control - x_740318_financi_0_bill</sys_name>
+        <sys_package display_value="Financial Control" source="x_740318_financi_0">f6c19385470311106cefba48436d435c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Financial Control">f6c19385470311106cefba48436d435c</sys_scope>
+        <sys_update_name>sys_search_source_20f6d70d470311106cefba48436d4343</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 13:15:37</sys_updated_on>
+    </sys_search_source>
+    <sys_translated_text action="delete_multiple" query="documentkey=20f6d70d470311106cefba48436d4343"/>
+</record_update>

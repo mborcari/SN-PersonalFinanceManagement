@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bill" max_length="40" name="x_740318_financi_0_bill" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Company" max_length="100" name="company" type="string"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Own" max_length="32" name="own" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="own"/>
+        </index>
+    </element>
+</database>

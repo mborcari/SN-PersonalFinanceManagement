@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="value_paid" label="Value paid" language="en" table="x_740318_financi_0_payments">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>value_paid</element>
+            <help/>
+            <hint/>
+            <label>Value paid</label>
+            <language>en</language>
+            <name>x_740318_financi_0_payments</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-07 13:18:42</sys_created_on>
+            <sys_id>29a7d38d470311106cefba48436d4351</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Value paid</sys_name>
+            <sys_package display_value="Financial Control" source="x_740318_financi_0">f6c19385470311106cefba48436d435c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Financial Control">f6c19385470311106cefba48436d435c</sys_scope>
+            <sys_update_name>sys_documentation_x_740318_financi_0_payments_value_paid_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-07 13:18:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
